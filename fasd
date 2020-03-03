@@ -1,0 +1,137 @@
+[33mcommit b103cf98b084a8ed6b61550abf3aaccd9a4747a6[m[33m ([m[1;36mHEAD -> [m[1;32maccount-activation-password-resets[m[33m)[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Sat Feb 29 15:57:10 2020 +0800
+
+    重置密码
+
+[33mcommit 5aa10537cf56dad3b5170029a19200b817f0a08b[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Sat Feb 29 13:46:53 2020 +0800
+
+    用户激活
+
+[33mcommit 15c9cc35a63cbb0b77b2701cd5ed247f72539ab5[m[33m ([m[1;32muser-crud[m[33m, [m[1;32mmaster[m[33m)[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Fri Feb 28 17:43:43 2020 +0800
+
+    管理员可删除用户
+
+[33mcommit 2d8154feb81712af779616d50ecf4427e16a2b2d[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Fri Feb 28 16:26:37 2020 +0800
+
+    查看用户列表
+
+[33mcommit 718c00ab7bdbd7fd066fc6137a68e068a96baefd[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Fri Feb 28 14:53:48 2020 +0800
+
+    访问策略
+
+[33mcommit 1bb68404409423a06e5b2ede2a329182881a26dd[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Fri Feb 28 13:42:51 2020 +0800
+
+    更改用户资料
+
+[33mcommit 6e018818106c912f56aa28e648ff904dd9f812f0[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mlogin-logout[m[33m)[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Fri Feb 28 10:37:47 2020 +0800
+
+    登录时记住我
+
+[33mcommit 2e6c8e5155d92daded249801a63434dbb4fad4ea[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Fri Feb 28 10:35:05 2020 +0800
+
+    用户退出登录
+
+[33mcommit 72157f392ea43973605d507571834b75fcf5225f[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Fri Feb 28 10:29:32 2020 +0800
+
+    登录成功后导航逻辑
+
+[33mcommit 83275a372243c4fdc3024e87dda08ae1dd91cb41[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Fri Feb 28 09:54:49 2020 +0800
+
+    创建会话
+
+[33mcommit 1c513f921b7ae989e888e831c866bcf3fe4ef807[m[33m ([m[1;32msign-up[m[33m)[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Fri Feb 28 09:06:52 2020 +0800
+
+    完成注册功能
+
+[33mcommit abc584f7b91a8af38b50952f64fde9d83bb404d9[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Fri Feb 28 08:45:16 2020 +0800
+
+    中文的错误提示信息
+
+[33mcommit 0992c150427bca212dd29523c0f3e336a95553f0[m[33m ([m[1;31morigin/sign-up[m[33m)[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Thu Feb 27 17:23:55 2020 +0800
+
+    增加 CSRF 验证
+
+[33mcommit 4275ad71e09110ebdee2d1fe873710aa15a1518e[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Thu Feb 27 16:59:22 2020 +0800
+
+    用户注册表单
+
+[33mcommit fe3d823ba49352dc8c2a191576509c005f35393c[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Thu Feb 27 16:56:23 2020 +0800
+
+    用户显示页面
+
+[33mcommit 53d234d2b0f8e4e966fd2c558170f54bcf3bf608[m[33m ([m[1;32mmodeling-users[m[33m)[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Thu Feb 27 16:04:21 2020 +0800
+
+    Move user model to models folder
+
+[33mcommit 28042df9695a65938a4c4e9b14d7946fdd9f695d[m[33m ([m[1;32mfilling-layout-style[m[33m)[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Thu Feb 27 13:20:23 2020 +0800
+
+    用户注册页面
+
+[33mcommit d38719cb6188f7f700837fafad0e4ae40eba719c[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Thu Feb 27 11:58:10 2020 +0800
+
+    '命名路由'
+
+[33mcommit 64b829dcd9df5aec9738fab37ebf3dbb6991c261[m
+Author: CCHgit config  --global  user.name <2480402065@qq.com>
+Date:   Thu Feb 27 11:50:55 2020 +0800
+
+    切割头部和尾部子视图
+
+[33mcommit e0b8e1bf8ff718a43cd5483bff90eb1c0eaa8ed5[m[33m ([m[1;31morigin/filling-layout-style[m[33m)[m
+Author: linechengchen <2480402065@qq.com>
+Date:   Wed Feb 26 22:06:54 2020 +0800
+
+    静态文件浏览器缓存问题
+
+[33mcommit e653f6ffba7235c2f440ec1c63375979d7d50106[m
+Author: linechengchen <2480402065@qq.com>
+Date:   Wed Feb 26 21:25:20 2020 +0800
+
+    初始化样式
+
+[33mcommit 58942e074c0b9c2784cd933f8059bb632edcf04e[m
+Author: linechengchen <2480402065@qq.com>
+Date:   Wed Feb 26 19:51:54 2020 +0800
+
+    基础页面
+
+[33mcommit bc347758e31fb7fe55f538b1dc25b7e976842428[m
+Author: linechengchen <2480402065@qq.com>
+Date:   Wed Feb 26 19:24:55 2020 +0800
+
+    Initial commit
