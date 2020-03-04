@@ -2,22 +2,37 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
 use App\Models\User;
+use Illuminate\Http\Request;
 use Mail;
 
 
 class UsersController extends Controller
 {
-  public  function __construct()
-  {
-      $this->middleware('auth',[
-          'except'=>['show','create','store','index','confirmEmail']
-      ]);
-      $this->middleware('guest', [
-          'only' => ['create']
-      ]);
-  }
+    public function __construct()
+    {
+        $this->middleware('auth', [
+            'except' => ['show', 'create', 'store', 'index', 'confirmEmail']
+        ]);
+        $this->middleware('guest', [
+            'only' => ['create']
+        ]);
+    }
+
+    public function followers(User $user)
+    {
+        $users = $user->followers()->paginate(30);
+        $title = $user->name . '关注的人';
+        return view('users.show_follow', compact('users', 'title'));
+    }
+
+    public function followings(User $user)
+    {
+        $users = $user->followings()->paginate(30);
+        $title = $user->name . "的粉丝";
+        return view('users.show_follow', compact('users', 'title'));
+    }
+
     public function confirmEmail($token)
     {
         $user = User::where('activation_token', $token)->firstOrFail();
